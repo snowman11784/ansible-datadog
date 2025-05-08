@@ -1,7 +1,17 @@
 CHANGELOG
 =========
-# 5.0.0 / 2025-04-21
+# 5.1.1 / 2025-05-07
+* [DOCS] Remove centos 6/7 from readme [#647]
+* [BUGFIX] Fix typo in fix-parse-version-windows.yml [#648] Thanks [@jacob9423]
+* [IMPROVEMENT] [CI] Add FQCN checks to ansible-lint [#650]
 
+# 5.1.0 / 2025-04-30
+**This role removes support for Ansible Core versions below 2.10.**
+* [IMPROVEMENT] Bump ansible-lint to 25.1.2 and fix compatibility issues [#644]
+* [IMPROVEMENT] Bump ansible galaxy/lint version [#642]
+* [BUGFIX] Fix Windows fqcn error [#645]
+
+# 5.0.0 / 2025-04-21
 **This role removes support for Python 2 and Agent 5, and bumps the minimum Ansible version for this role to 2.8** Additionally, it no longer supports older versions of Amazon Linux 2 and CentOS. While version 4 of the role will continue to receive backport updates, Ansible collections corresponding to version 4 of this role (Datadog Ansible Collection v5) will not be updated. We recommend upgrading to the latest version for better support and improvements. 
 
 * [MAJOR] Remove support for Python 2 and Agent 5. [#639]
@@ -598,6 +608,12 @@ Initial release, compatible with Ansible v1 & v2
 [#638]: https://github.com/DataDog/ansible-datadog/pull/638
 [#639]: https://github.com/DataDog/ansible-datadog/pull/639
 [#640]: https://github.com/DataDog/ansible-datadog/pull/640
+[#642]: https://github.com/DataDog/ansible-datadog/pull/642
+[#644]: https://github.com/DataDog/ansible-datadog/pull/644
+[#645]: https://github.com/DataDog/ansible-datadog/pull/645
+[#647]: https://github.com/DataDog/ansible-datadog/pull/647
+[#648]: https://github.com/DataDog/ansible-datadog/pull/648
+[#650]: https://github.com/DataDog/ansible-datadog/pull/650
 [@DevKyleS]: https://github.com/DevKyleS
 [@Jno21]: https://github.com/Jno21
 [@alsmola]: https://github.com/alsmola
@@ -646,3 +662,4 @@ Initial release, compatible with Ansible v1 & v2
 [@valscion]: https://github.com/valscion
 [@a-rhodes]: https://github.com/a-rhodes
 [@kaveet]: https://github.com/kaveet
+[@jacob9423]: https://github.com/jacob9423
